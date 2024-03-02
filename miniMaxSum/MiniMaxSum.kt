@@ -1,9 +1,5 @@
 package com.example.hellokotlin.Practice.veinte23.miniMaxSum
 
-//ver video
-
-//https://www.youtube.com/watch?v=HNvI9A79XbU
-
 fun main() {
     miniMaxSum(arrayOf(1, 3, 5, 7, 9))
     miniMaxSum(arrayOf(1, 2, 3, 4, 5))
@@ -30,4 +26,4 @@ fun miniMaxSum(arr: Array<Int>) {
     println("${sum-max} ${sum-min}")
 }
 
-//Time Complexity: O(1)
+//Time Complexity: O(n)
